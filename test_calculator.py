@@ -1,6 +1,6 @@
 import unittest
 
-from calculator import add, multiply, subtract
+from calculator import add, mean, multiply, subtract
 
 
 class CalculatorTests(unittest.TestCase):
@@ -12,6 +12,9 @@ class CalculatorTests(unittest.TestCase):
 
     def test_multiply(self):
         self.assertEqual(multiply(4, 3), 12)
+
+    def test_mean(self):
+        self.assertEqual(mean([1, 2, 3, 4]), 2.5)
 
 
 if __name__ == '__main__':
