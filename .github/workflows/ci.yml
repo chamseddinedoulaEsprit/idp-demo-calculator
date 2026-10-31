@@ -31,4 +31,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build archive
-        run: tar czf calculator.tgz calculator.py
+        run: tar czf calculator.tgz calculator.py LICENSE
