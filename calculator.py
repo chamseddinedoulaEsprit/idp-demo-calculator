@@ -1,5 +1,5 @@
 """Tiny calculator used to demonstrate CI analysis."""
-import numpy as np
+import statistics
 
 
 def add(a, b):
@@ -15,4 +15,4 @@ def multiply(a, b):
 
 
 def mean(values):
-    return float(np.mean(values))
+    return float(statistics.mean(values))
