@@ -20,5 +20,5 @@ def divide(a, b):
     return a / b
 
 
-def mean(values):
-    return float(statistics.mean(values))
+def mean(value):
+    return float(statistics.mean(value))
